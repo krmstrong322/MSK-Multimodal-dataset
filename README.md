@@ -92,12 +92,6 @@ python mediapipe_batch_process.py
 # Follow prompts to specify video directory and output location
 ```
 
-#### Calculate Joint Angles (MATLAB)
-```matlab
-run('Matlab/Joint_Angle.m')
-% Enter data path and configuration when prompted
-```
-
 #### Generate Comparison Analysis
 ```python
 python Joint\ Angle\ Results/joint_angle_comparisons.py
@@ -158,6 +152,25 @@ data/
 
 ## 📁 Dataset Information
 
+#### Calculate Joint Angles from MoCap (MATLAB)
+Marker-based Optical MoCap Data processed using the Matlab directory, developed by the team at the School of Sport and Exercise Science at the University of Lincoln.
+
+Example Usage:
+
+```matlab
+run('Matlab/Joint_Angle.m')
+% Enter data path and configuration when prompted
+```
+
+#### Calculate Joint Angles from IMU (MATLAB)
+IMU Data processed using the Biomech Zoo open-source biomechanics toolbox, developed by the McGill Motion Lab at McGill University, Ca.
+
+Example Usage:
+
+```
+git clone https://github.com/PhilD001/biomechZoo.git
+```
+
 > **Note**: Links to datasets and contact information will be added here.
 
 ### Dataset Access
@@ -167,7 +180,7 @@ data/
 
 ### Contact for Data Access
 - **Principal Investigator**: Kai Armstrong
-- **Email**: karmstrong@lincoln.ac.uk
+- **Email**: Can be found listed in the publication
 - **Institution**: University of Lincoln
 - **Data Repository**: Link to be made available upon publication
 
