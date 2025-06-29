@@ -109,18 +109,33 @@ python Joint\ Angle\ Results/joint_angle_comparisons.py
 ### Expected Input Structure
 ```
 data/
-├── MoCap/
-│   ├── Participant_01_MoCap/
+├── Joint Angle Results/
+│   ├── P01 Tight/
 │   │   ├── Squat.csv
 │   │   ├── Sit To Stand.csv
 │   │   └── Sqt To Box.csv
-│   └── Participant_02_MoCap/
-└── ComputerVision/
-    ├── Participant_01_NC/
-    │   ├── Squat.csv
-    │   ├── Sit To Stand.csv
-    │   └── Sqt To Box.csv
-    └── Participant_02_NC/
+│   └── P01_Loose/
+|...
+├── Motion Capture/
+│   ├── P01 Tight/
+│   │   ├── Squat.csv
+│   │   ├── Sit To Stand.csv
+│   │   └── Sqt To Box.csv
+│   └── P01_Loose/
+|...
+├── IMU/
+│   ├── P01 Tight/
+│   │   ├── Squat.xlsx
+│   │   ├── Sit To Stand.xlsx
+│   │   └── Sqt To Box.xlsx
+│   └── P01_Loose/
+|...
+└── Videos/
+    ├── P01_Tight/
+    │   ├── Squat.avi
+    │   ├── Sit To Stand.avi
+    │   └── Sqt To Box.avi
+    └── P01_Loose/
 ```
 
 ### Supported Movement Types
@@ -132,7 +147,6 @@ data/
 
 ### Statistical Measures
 - Paired t-tests for related samples
-- Wilcoxon signed-rank tests for non-parametric data
 - Pearson correlation analysis
 - Descriptive statistics (mean, std, min, max, range)
 
@@ -147,20 +161,20 @@ data/
 > **Note**: Links to datasets and contact information will be added here.
 
 ### Dataset Access
-- **Primary Dataset**: [LINK TO BE ADDED]
-- **Supplementary Data**: [LINK TO BE ADDED]
-- **Data Documentation**: [LINK TO BE ADDED]
+- **Primary Dataset**: Please contact the principal investigator for data access
+- **Supplementary Data**: Should any of the unused actions such as the lunge or balance, or any unused data modalities such as the ground-reaction forces be required for research purposes, please contact the principal investigator with a request.
+- **Data Documentation**: All documentation will be hosted on GitHub, any documentation hosted elsewhere is not associated with the University.
 
 ### Contact for Data Access
-- **Principal Investigator**: [NAME TO BE ADDED]
-- **Email**: [EMAIL TO BE ADDED]
-- **Institution**: [INSTITUTION TO BE ADDED]
-- **Data Repository**: [REPOSITORY TO BE ADDED]
+- **Principal Investigator**: Kai Armstrong
+- **Email**: karmstrong@lincoln.ac.uk
+- **Institution**: University of Lincoln
+- **Data Repository**: Link to be made available upon publication
 
 ### Data Usage Guidelines
-- [USAGE TERMS TO BE ADDED]
+- Usage of this data is for academic purposes only
 - [CITATION REQUIREMENTS TO BE ADDED]
-- [ETHICAL APPROVAL INFORMATION TO BE ADDED]
+- Data collection in accordance with the University of Lincoln's Ethics and Governance Committee
 
 ## 🔬 Research Applications
 
@@ -174,7 +188,12 @@ This toolkit has been used for:
 
 If you use this toolkit in your research, please cite:
 ```
-[CITATION TO BE ADDED]
+@article{armstrong2025validation,
+  title={Validation of Human Pose Estimation and Human Mesh Recovery for Extracting Clinically Relevant Motion Data from Videos},
+  author={Armstrong, Kai and Rodrigues, Alexander and Willmott, Alexander P and Zhang, Lei and Ye, Xujiong},
+  journal={arXiv preprint arXiv:2503.14760},
+  year={2025}
+}
 ```
 
 ## 🤝 Contributing
@@ -192,8 +211,6 @@ We welcome contributions! Please:
 
 For technical support or questions:
 - **Issues**: Create an issue in this repository
-- **Email**: [SUPPORT EMAIL TO BE ADDED]
-- **Documentation**: See individual script headers for detailed usage
 
 ## 🔄 Version History
 
@@ -202,4 +219,4 @@ For technical support or questions:
 
 ---
 
-*This README provides an overview of the MSK multimodal data collection and analysis toolkit. For detailed usage instructions, refer to individual script documentation and comments.*
+*This README provides an overview of the MSK multimodal data collection and analysis toolkit (name not yet final). For detailed usage instructions, refer to individual script documentation and comments.*
