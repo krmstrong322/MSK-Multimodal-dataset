@@ -1,0 +1,22 @@
+# Core data science and analysis packages
+pandas>=1.5.0
+numpy>=1.21.0
+scipy>=1.9.0
+
+# Machine learning
+scikit-learn>=1.1.0
+
+# Data visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Computer vision and media processing
+opencv-python>=4.6.0
+mediapipe>=0.9.0
+
+# Utility packages
+more-itertools>=8.0.0
+joblib>=1.1.0
+
+# Note: The following are built-in Python modules and don't need to be installed:
+# os, math, json, argparse, re, glob, pathlib, collections, typing, statistics

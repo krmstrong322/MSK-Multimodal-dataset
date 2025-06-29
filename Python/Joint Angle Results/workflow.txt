@@ -1,0 +1,7 @@
+1. data_reading.py to create "kinematics_summary_NEW.csv" - get the min, max, and rom of different kinematics for each participant and each modality
+
+2. new_statistical_testing_2025.py to create "statistical_testing_results_NEW.csv" - calculate paired statistical tests for the range of motion
+
+3. clean_statistical_results.py to create "filtered_statistical_testing_results_NEW.csv" - remove unnecessary actions and kinematics from the clean_statistical_results
+
+4. table_preparation_paper.py to create "all_results_NEW.csv" and "/publication_tables_NEW/xyz" - create the publication ready tables from the one large csv file by separating into different modality comparisons or actions
