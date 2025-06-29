@@ -71,7 +71,7 @@ msk_multimodal_data_collection/
 
 1. **Clone the repository**:
    ```bash
-   git clone [REPOSITORY_URL]
+   git clone https://github.com/krmstrong322/MSK-Multimodal-dataset.git
    cd msk_multimodal_data_collection
    ```
 
@@ -186,7 +186,6 @@ git clone https://github.com/PhilD001/biomechZoo.git
 
 ### Data Usage Guidelines
 - Usage of this data is for academic purposes only
-- [CITATION REQUIREMENTS TO BE ADDED]
 - Data collection in accordance with the University of Lincoln's Ethics and Governance Committee
 
 ## 🔬 Research Applications
@@ -218,7 +217,7 @@ We welcome contributions! Please:
 
 ## 📄 License
 
-[LICENSE TO BE ADDED]
+MIT License
 
 ## 🆘 Support
 
